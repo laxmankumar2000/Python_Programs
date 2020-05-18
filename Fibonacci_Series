@@ -1,0 +1,25 @@
+'''
+
+Progrm to print fibbonaci series i.e. 1,1,2,3,5,8.
+
+'''
+
+
+
+a = 0  
+b = 1  
+
+num = int(input("Enter number for how many times series is to be generated: "))
+print("The given fibbonaci series for",num,"terms is:")
+print("",b,end = "")
+
+for i in range(num):
+    c = a + b  # making third term as sum of first two terms
+    a = b  # interchanging the second term as to first term
+    b = c  # interchanging third term as to second term
+    print(" ",c,end ="")
+    
+    
+    
+    
+    
